@@ -68,18 +68,6 @@ finally:
     driver.quit()  # Brauzerni yopish
 ```
 
-### 3. Asosiy dastur
-
-Agar siz dasturdan faqat kursni olishni istasangiz, quyidagi kodni ishga tushirishingiz mumkin:
-
-```python
-if __name__ == "__main__":
-    url = "https://ipakyulibank.uz/physical/valyuta-ayirboshlash/kurslar"
-    # Skriptni ishga tushirish
-    kurs = get_exchange_rate(url)
-    print(f"1 USD = {kurs} UZS")
-```
-
 ## Xatoliklarni Tuzatish
 
 *   chromedriverni topa olmayapti: Agar chromedriver to‘g‘ri o‘rnatilmagan bo‘lsa, webdriver-manager kutubxonasidan foydalaning.
